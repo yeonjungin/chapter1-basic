@@ -25,6 +25,10 @@ def overlap(x1,y1,x2,y2,ex1,ey1,ex2,ey2):
     clear_visited()
     draw(x1,y1,x2,y2)
     draw(ex1,ey1,ex2,ey2)
+    if chekc2():
+      if chekc2():
+        retrun False
+      retrun False
     if check():
         return True
     return False
