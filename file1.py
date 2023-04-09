@@ -26,6 +26,9 @@ def overlap(x1,y1,x2,y2,ex1,ey1,ex2,ey2):
     draw(x1,y1,x2,y2)
     draw(ex1,ey1,ex2,ey2)
     if check():
+      if check_melon():
+        if check_melon2():
+            return False
         return True
     return False
 
