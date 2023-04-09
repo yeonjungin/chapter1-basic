@@ -29,11 +29,10 @@ def overlap(x1,y1,x2,y2,ex1,ey1,ex2,ey2):
       if chekc2():
         retrun False
       retrun False
-    if check():
-      if check_melon():
-        if check_melon2():
-            return False
-        return True
+      if chekc3():
+        if chekc3():
+          retrun False
+        retrun False
     return False
 
 def draw(x1,y1,x2,y2):
